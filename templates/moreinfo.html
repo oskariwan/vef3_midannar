@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %} Bensínstöð {% endblock %}
+{% block content %}
+
+<h3>bensínstöð upplýsingar</h3>
+    {% for item in gognt[results] %}
+        {% if item.key == k %}
+        <h3>sölualiði: {{ item.company }}</h3>
+        <h3>staður: {{ item.name }}</h3>
+        <h4>Verð á 1 liter af bensin: {{ item.bensin95 }}kr</h4>
+        <h4>Verð á 1 liter af díselolíu: {{ item.diesel }}kr</h4>
+        {% endif %}
+    {% endfor %}
+
+{% endblock %}

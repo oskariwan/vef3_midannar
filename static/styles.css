@@ -1,0 +1,25 @@
+h1{
+    color:blue;
+}
+h2{ 
+    color:yellow;
+}
+.row{
+    display: grid;
+    grid-template-columns:1fr,1fr;
+    grid-gap:2em 
+}
+.top3em{
+    padding-top:3em;
+}
+.wrapper{
+    display:grid ;
+    grid-template-columns: 1fr;
+    grid-gap:1em;
+
+}
+.box, box2{
+    border:0.75px solid;
+    border-radius: 5px;
+    text-align: center;
+}

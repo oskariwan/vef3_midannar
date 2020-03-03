@@ -1,0 +1,14 @@
+h1{
+    color:blue;
+}
+h2{ 
+    color:yellow;
+}
+.row{
+    display: grid;
+    grid-template-columns:1fr,1fr;
+    grid-gap:2em 
+}
+.top3em{
+    padding-top:3em;
+}
